@@ -34,10 +34,10 @@
 ### Protocolo HTTP
 </br>
 
-#### A aba de pesquisa do Google usa GET em vez de POST, pois, GET permite Bookmark. O POST ainda poderia ser utilizado, porém, sem a possibilidade de Bookmark.
-#### Pode-se analisar o url e perceber que é usado GET ("?" + Parâmetros)
-#### Quando o URL é muito extenso é preferível usar POST.
-#### Nomes de usuário e senha também podem ser enviados pelo GET, mas quando enviados, são criptografados na URL.
+#### - A aba de pesquisa do Google usa GET em vez de POST, pois, GET permite Bookmark. O POST ainda poderia ser utilizado, porém, sem a possibilidade de Bookmark.
+#### - Pode-se analisar o url e perceber que é usado GET ("?" + Parâmetros)
+#### - Quando o URL é muito extenso é preferível usar POST.
+#### - Nomes de usuário e senha também podem ser enviados pelo GET, mas quando enviados, são criptografados na URL.
 
 </br>
 
@@ -64,6 +64,7 @@
 </br>
 
 ### Códigos HTTP Response
+
 
 
 
