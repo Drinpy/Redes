@@ -69,6 +69,7 @@
 
 #### Em um site é bom ter uma ferramenta que analisa a taxa de acesso do próprio site, ademais uma ferramenta que edita as permissões do acesso para que não tenha uma excesso de requisições por um mesmo usuário. (Por exemplo: Bots)
 
+<a href="https://http.cat/"> Códigos HTTP Response resumidamente </a>
 
 
 
