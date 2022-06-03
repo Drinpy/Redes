@@ -66,7 +66,7 @@
 ### Códigos HTTP Response
 #### `301:` Em resumo serve para redirecionamento. (Oculto no URL, mas visível no "Telnet" do terminal)
 #### `400:` Bad request, ou seja, a requisição não foi entendida pelo servidor.
-#### `404:` Destino não encontrado!
+#### `404:` Destino não encontrado! (No "Telnet" o comando 'GET /"Url inexistente" / HTTP/1.1' apresenta a mensagem 404)
 
 </br>
 
