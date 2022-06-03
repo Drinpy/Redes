@@ -64,12 +64,19 @@
 </br>
 
 ### Códigos HTTP Response
+#### `301:` Em resumo serve para redirecionamento. (Oculto no URL, mas visível no "Telnet" do terminal)
+#### `400:` Bad request, ou seja, a requisição não foi entendida pelo servidor.
+#### `404:` Destino não encontrado!
 
 </br>
 
 #### Em um site é bom ter uma ferramenta que analisa a taxa de acesso do próprio site, ademais uma ferramenta que edita as permissões do acesso para que não tenha uma excesso de requisições por um mesmo usuário. (Por exemplo: Bots)
 
 <a href="https://http.cat/"> Códigos HTTP Response resumidamente </a>
+
+</br>
+
+##### `Procurar sobre "Postman"`
 
 
 
