@@ -1,5 +1,5 @@
-# Redes
-
+# Redes 
+   
 ##### `01/06/22`
 
 ### Camadas de aplicação
@@ -78,6 +78,151 @@
 
 ##### `Procurar sobre "Postman"`
 
+</br>
+
+---
+
+##### `06/06/22` - Data de postagem!
+
+Material feito por: <a href="https://github.com/SprigganCS"> SprigganCS </a>
+
+### Atrasos 
+
+<p> Diferença entre atraso de transmissão e propagação. 
+
+Atraso de transmissão está relacionado ao tempo de converter a informação em onda de rádio ou em energia. Depende da largura de banda. 
+
+Atraso de propagação está relacionado a distância (como a distância que uma onda precisa percorrer de um ponto a outro). 
+</p>
+
+
+
+#### PC -> Roteador (transmissão) -> (propagação) -> Outro roteador 
+
+<p> - Atraso de propagação = d/s </p>
+
+
+`D` = distância entre roteadores 
+
+`S` = velocidade de propagação no meio 
+
+#### `Atraso total = Aprocessamento + Afila + Atransmissão + Apropagação` 
+
+
+- Atraso de processamento tipicamente são poucos microsegundos 
+
+- Atraso de fila depende do congestionamento 
+
+- Atraso de transmissão = L/R, significativo para links de baixa velocidade 
+
+- Atraso de propagação varia de poucos microsegundos a centenas de segundos 
+</br>
+
+### Camadas 
+
+<ui>
+   
+<li> Aplicação - http, pop3, imap, dns, smtp, dhcp, ftp 
+
+<li> Transporte – TCP, UDP 
+
+<li> Rede – IP, BGP, IGP, OSPF, ICMP 
+
+<li> Enlace – Wifi, Ethernet 
+
+<li> Física - Bits "nos fios"
+   
+</ui>
+
+#### (Quanto mais para cima na lista, mais próximo ao usuário). 
+
+
+</br>
+
+### Portas 
+   
+<p>
+Um número de porta é associado a um único processo (gerado por um programa em execução). 
+
+Nº de porta <1024 são reservadas (http, https, ssh, etc) 
+
+Nº de porta >=1024 são chamadas alfas e podem ser usadas.
+   
+</p>
+ 
+
+#### O número de porta utilizado por um processo no PC cliente (geralmente alfa, pois muitas abas podem estar abertas num navegador) se liga a uma porta (geralmente reservada) do servidor, por esse motivo que os números de portas em cada ponta é diferente. (Segundo o professor pode ser igual, mas conceitualmente é estranho). 
+
+</br> 
+
+---
+
+##### `06/06/22` - Data de postagem!
+
+### Protocolos de transporte 
+
+#### `TCP` 
+
+<ui>
+   
+<li>É um tipo de serviço orientado à conexão. Ele é mais lento, mas consegue transportar mais recursos, informações longas como páginas html, arquivos de estilo, etc. 
+
+<li>Se houver perda de dados no caminho (perda de pacote), ele recupera automaticamente. 
+
+<li>Uma quantidade de memória é usada para armazenar informações necessárias. 
+
+<li>É garantido que a informação transmitida é recebida pelo usuário, por esse motivo é mais seguro. 
+
+<li>As informações chegam ordenadas. 
+
+<li>Possui controle de fluxo e de congestionamento. O controle de fluxo evita que o buffer de destino fique cheio. 
+
+</ui>
+
+#### `UDP`
+
+<ui>
+   
+<li> É outro tipo de serviço, que funciona com os recursos mínimos. 
+
+<li> DNS é um exemplo que funciona com o protocolo UDP. 
+
+<li> Se houver perda, os dados são perdidos, e uma nova requisição deve ser feita a partir da aplicação. 
+ 
+<li> Não há garantia que a informação transmitida será recebida pelo usuário. 
+
+<li> As informações podem chegar em ordem diferentes da saída. 
+
+<li> A vantagem em se utilizar o UDP é que é mais rápido. 
+
+<li> O UDP não inclui sistema de controle de congestionamento. 
+
+<li> UDP funciona em tempo real. 
+
+</ui>
+ 
+</br>
+ 
+`Socket e portas são sinônimos. `
+
+
+#### `DNS:` Sistema de nome de domínio, é como uma lista que contém as URLs (facil de decorar) relacionado com um ip (endereço) dos sites. Quando o usuario entra num site pelo url, o Resolver manda essa string para o Recursivo (servidor disponibilizado pelos provedores de internet), o recursivo possui uma lista com os ip's, mas caso a URL requisitada nunca tenha sido acessada pelos usuários anteriormente, ele pede para o servidor raíz localizar, que por sua vez pergunta aos servidores autoritativos. Até que o ip do site seja localizado em algum servidor. Então esse endereço retorna com o ip do servidor e a porta que aquela página HTML está localizada. 
+
+ </br>
+
+`A comunicação pode ser feita de 3 formas: cliente/servidor, P2P (peer to peer) ou híbrida.` 
+
+ 
+#### `Cliente/servidor:` O cliente entra numa url, o Recursivo retorna o IP e a porta daquele HTML(UDP), agora a ponta do usuário sabe onde requisitar o HTML, que vai ser enviado pelo servidor pelo protocolo TCP. 
+
+##### Outro modelo cliente/servidor é com um balanceador, que permite que os servidores se mantenham ocultos ao usuário. Um único balanceador se conecta a vários servidores por uma rede privada. 
+
+ 
+`P2P:` Mais raro, a conexão é direta sem intermédio de um servidor. 
+
+`Híbrido:` Servidor é essencial para o funcionamento, mas os clientes podem se comunicar diretamente.
+
+---
 
 
 
