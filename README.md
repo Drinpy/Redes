@@ -155,10 +155,6 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 </br> 
 
----
-
-##### `06/06/22` - Data de postagem!
-
 ### Protocolos de transporte 
 
 #### `TCP` 
