@@ -243,6 +243,8 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 ---
 
+##### `08/06/22`
+
 #### `DNS local` = RECURSIVO.
 ##### - Os demais ligados são ITERATIVOS como por exemplo: .root, .br, .edu
-#### ` Entre o computador e o servidor DNS local a consulta é Recursiva `
+##### ` Entre o computador e o servidor DNS local a consulta é Recursiva `
