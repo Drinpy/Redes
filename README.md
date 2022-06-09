@@ -218,7 +218,31 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 `Híbrido:` Servidor é essencial para o funcionamento, mas os clientes podem se comunicar diretamente.
 
+</br>
+
 ---
 
+##### `07/06/22` Estudo
 
+#### Protocolo de aplicação define:
+<ui>
+   <li> Os tipos de mensagens trocadas, por exemplo, requisição e de resposta.
+   <li> A sintaxe de vários tipos de mensagens, tais como os campos da mensagem e como os campos são delineados.
+   <li> A semântica dos campos, isto é, o significado da informação nos campos.
+   <li> Regras para determinar quando e como um processo envia mensagens e responde mensagens.    
+</ui>
 
+#### HTTP define como os clientes requisitam páginas aos servidores e como eles as transferem aos clientes.
+
+#### `Socket:` É a interface entre a camada de aplicação e a de transporte dentro de um hospedeiro.
+##### - "Analogamente a porta de uma casa."
+
+`*HTTP é um protocolo sem estado, pois, não mantém informação alguma sobre o cliente.`
+
+</br>
+
+---
+
+#### `DNS local` = RECURSIVO.
+##### - Os demais ligados são ITERATIVOS como por exemplo: .root, .br, .edu
+#### ` Entre o computador e o servidor DNS local a consulta é Recursiva `
