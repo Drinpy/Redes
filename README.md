@@ -248,3 +248,14 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 #### `DNS local` = RECURSIVO.
 ##### - Os demais ligados são ITERATIVOS como por exemplo: .root, .br, .edu.
 ##### ` Entre o computador e o servidor DNS local a consulta é Recursiva.`
+
+</br>
+
+---
+
+##### `18/06/22`
+
+### <li> Camada de transporte </li>
+#### A camada de transporte da Internet c arrega mensagens da camada de aplicação entre os lados do cliente e servidor de um aplicação.
+### <li> Camada de rede </li>
+#### A camada de rede da Internet é responsável pela movimentação, de um hospedeiro para outro, de pacotes da camada de rede, conhecidos como `datagramas`. O protocolo de camada de transporte da Internet (TCP ou UDP) em um hospedeiro de origem passa um segmento da camada de transporte e um endereço de destino à camada de rede, exatamente como você passaria ao serviço de correios uma carta com um endereço de destinatário. `A camada de rede então provê o serviço de entrega do segmento à camada de transporte no hospedeiro destino.` Essa camada inclui o famoso IP, que define os campos no datagrama e o modo como os sistemas finais e os roteadores agem nesses campos. Existe apenas um único protocolo IP, e todos os componentes da Internet que têm uma camada de rede devem executá-lo.
