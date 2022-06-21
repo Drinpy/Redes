@@ -118,7 +118,8 @@ Atraso de propagação está relacionado a distância (como a distância que uma
 - Atraso de propagação varia de poucos microsegundos a centenas de segundos 
 </br>
 
-### Camadas 
+### Camadas & Seus protocolos
+
 
 <ui>
    
