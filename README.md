@@ -215,9 +215,9 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 ##### Outro modelo cliente/servidor é com um balanceador, que permite que os servidores se mantenham ocultos ao usuário. Um único balanceador se conecta a vários servidores por uma rede privada. 
 
  
-`P2P:` Mais raro, a conexão é direta sem intermédio de um servidor. 
+#### `P2P:` Mais raro, a conexão é direta sem intermédio de um servidor. 
 
-`Híbrido:` Servidor é essencial para o funcionamento, mas os clientes podem se comunicar diretamente.
+#### `Híbrido:` Servidor é essencial para o funcionamento, mas os clientes podem se comunicar diretamente.
 
 </br>
 
