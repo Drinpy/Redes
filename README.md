@@ -362,12 +362,14 @@ Incremento = 1000 * (1000/2000) = 500 (1° Incremento), 500 (2° Incremento)
   <li> Após timeout: <b> Queda </b> até 1 pacote e depois <b> Dobra </b> até a metade. </li>
   <li> Após ACK duplicado: <b> Queda </b> até a metade e depois <b> Cresce </b> de maneira linear (1 por 1) </li>
 
+
 </br>
+
 
 `Aumento Aditivo:` Crescimento um por um.
 
 <p> <b>Funcionaria para redes wireless?</b> NÃO, porque a cada perda ele vai reduzir a taxa. </p>
-<p> <b>Funcionaria para redes de Alta Velocidade?` NÃO, pois se cair os pacotes, até recuperar de maneira linear vai demorar. </p>
+<p> <b>Funcionaria para redes de Alta Velocidade?</b> NÃO, pois se cair os pacotes, até recuperar de maneira linear vai demorar. </p>
 
 </details>
 
