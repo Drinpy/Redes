@@ -262,3 +262,9 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 #### A camada de rede da Internet é responsável pela movimentação, de um hospedeiro para outro, de pacotes da camada de rede, conhecidos como `datagramas`. O protocolo de camada de transporte da Internet (TCP ou UDP) em um hospedeiro de origem passa um segmento da camada de transporte e um endereço de destino à camada de rede, exatamente como você passaria ao serviço de correios uma carta com um endereço de destinatário. `A camada de rede então provê o serviço de entrega do segmento à camada de transporte no hospedeiro destino.` Essa camada inclui o famoso IP, que define os campos no datagrama e o modo como os sistemas finais e os roteadores agem nesses campos. Existe apenas um único protocolo IP, e todos os componentes da Internet que têm uma camada de rede devem executá-lo. Embora a camada de rede contenha o protocolo IP e também numerosos outros de roteamento, ela quase sempre é denominada apenas camada IP, refletindo o fato de que ele é o elemento fundamental que mantém a integridade da Internet. (Protocolos: IP)
 ### <li> Camada de enlace </li>
 #### A camada de rede roteia um datagrama por meio de uma série de roteadores entre a origem e o destino. Para levar um pacote de um nó (hospedeiro ou roteador) ao nó seguinte na rota, a camada de rede depende dos serviços da camada de enlace. Em especial, em cada nó a camada de rede passa o datagrama para a de enlace, que o entrega, ao longo da rotam ao nó seguinte, no qual o datagrama é passado da camada de enlace para a de rede. Os serviços prestados pela camada de enlace dependem do protocolo específico empregado no enlace. Por exemplo, alguns desses protocolos proveem entrega garantida entre enlaces, isto é, desde o nó transmissor, passando por um único enlace, até o nó receptor. (Protocolos: Ethernet, Wi-fi, DOCSIS)
+
+</br>
+
+---
+
+`1 Byte = 8 Bits`
