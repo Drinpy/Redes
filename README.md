@@ -294,11 +294,11 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 ---
 
-</br>
-
 <details>
 
 <summary> <b> 01/07/22 </b> </summary>
+
+</br>
 
 `1 Byte = 8 Bits`
 
