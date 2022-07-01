@@ -2,7 +2,7 @@
 
 <details>
    
-<summary> <u> 01/06/22 </u> </summary>
+<summary> <b> 01/06/22 </b> </summary>
 
 ### Camadas de aplicação
 </br>
