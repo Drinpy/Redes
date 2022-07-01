@@ -267,4 +267,6 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 ---
 
+##### `01/07/22`
+
 `1 Byte = 8 Bits`
