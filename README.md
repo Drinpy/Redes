@@ -1,6 +1,8 @@
 # Redes 
+
+<details>
    
-##### `01/06/22`
+<summary> <b> 01/06/22 </b> </summary>
 
 ### Camadas de aplicação
 </br>
@@ -14,9 +16,13 @@
 
 #### HTTP/2: Stream, Mensagem, Frame.
 
+</details>
+
 ---
 
-##### `02/06/22`
+<details>
+
+<summary> <b> 02/06/22 </b> </summary>
 
 #### HTTP Métodos: POST/HEAD/PUT/DELETE
 
@@ -26,10 +32,13 @@
 #### `POP3`
 ###### - Utiliza protocolo TCP porta(110)
 
+</details>
 
 ---
 
-##### `03/06/22`
+<details>
+
+<summary> <b> 03/06/22 </b> </summary>
 
 ### Protocolo HTTP
 </br>
@@ -80,9 +89,13 @@
 
 </br>
 
+</details>
+
 ---
 
-##### `06/06/22` - Data de postagem!
+<details>
+
+<summary> <b> 06/06/22 - Note Neves</b> </summary>
 
 Material feito por: <a href="https://github.com/SprigganCS"> SprigganCS </a>
 
@@ -139,7 +152,7 @@ Atraso de propagação está relacionado a distância (como a distância que uma
 
 
 </br>
-
+##### `06/06/22` - Data de postagem!
 ### Portas 
    
 <p>
@@ -221,9 +234,13 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 </br>
 
+</details>
+
 ---
 
-##### `07/06/22` Estudo
+<details>
+
+<summary> <b> 07/06/22 - Estudo</b> </summary>
 
 #### Protocolo de aplicação define:
 <ui>
@@ -242,9 +259,13 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 </br>
 
+</details>
+
 ---
 
-##### `08/06/22`
+<details>
+
+<summary> <b> 08/06/22 </b> </summary>
 
 #### `DNS local` = RECURSIVO.
 ##### - Os demais ligados são ITERATIVOS como por exemplo: .root, .br, .edu.
@@ -252,9 +273,13 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 </br>
 
+</details>
+
 ---
 
-##### `18/06/22`
+<details>
+
+<summary> <b> 18/06/22 </b> </summary>
 
 ### <li> Camada de transporte </li>
 #### A camada de transporte da Internet carrega mensagens da camada de aplicação entre os lados do cliente e servidor de um aplicação. (Protocolos: UDP, TCP)
@@ -265,8 +290,16 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 </br>
 
+</details>
+
 ---
 
-##### `01/07/22`
+<details>
+
+<summary> <b> 01/07/22 </b> </summary>
 
 `1 Byte = 8 Bits`
+
+</details>
+
+
