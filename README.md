@@ -2,7 +2,7 @@
 
 <details>
    
-<summary> <b> 01/06/22 </b> </summary>
+<summary> <u> 01/06/22 </u> </summary>
 
 ### Camadas de aplicação
 </br>
@@ -318,6 +318,25 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
    <li> <b> Half-duplex </b> Dados fluem em ambos os sentidos, mas não ao mesmo tempo. (Ex: Rádio/Walkie-talkie) </li>
    <li> <b> Full-duplex: </b> Dados fluem em ambos os sentidos e ao mesmo tempo. (Ex: Telnet) </li>
 </ul>
+
+### Retransmissão Rápida
+
+- SEMPRE será `3` retransmissões antes do `Timeout` independente da quantidade de pacotes que foram enviados.
+
+- Cada pacote tem um ***timeout*** que é checado para saber se o pacote foi enviado corretamente.
+
+- Para resolver uma retransmissão tem-se: `Timeout X Reenviar Pacote`
+
+- Entre os dois o ***timeout*** é o que possui maior congestionamento, pois, nenhum dado vai ter passado.
+
+</br>
+
+#### Importante!
+
+` Calculando o timeout, nós não devemos levar em consideração a retransmissão, pois, não há como saber se o ACK atrasou ou está sendo restransmitido.`
+
+</br>
+
 
 </details>
 
