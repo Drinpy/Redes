@@ -351,6 +351,19 @@ Incremento = 1000
 
 Incremento = 1000 * (1000/2000) = 500 (1° Incremento), 500 (2° Incremento)
 
+</br>
+
+`TCP Reno:` Dobra pacote quando o ACK retorna (todos)
+   - Após um ***timeout*** (Pacote volta para 1) ele dobra apenas até a metade e após isso ele cresce de maneira mais lenta (1 por 1) para garantir estabilidade na rede.
+   - ***Exemplo prático:*** Taxa de download na Steam (Gráfico)
+   - Após ACKs duplicados em vez de voltar o pacote para 1 ele votla para metade da onde estava.
+
+#### Resumo da Ópera:
+  <li> Após timeout: <b> Queda </b> até 1 pacote e depois <b> Dobra </b> até a metade. </li>
+  <li> Após ACK duplicado: <b> Queda </b> até a metade e depois <b> Cresce </b> de maneira linear (1 por 1) </li>
+
+
+
 </details>
 
 
