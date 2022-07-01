@@ -302,6 +302,23 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 `1 Byte = 8 Bits`
 
+</br>
+
+#### `MSS:` Maximum segment size -> quantidade máxima de dados que pode-se enviar em um único pacote. (Tamanho máximo do segmento)
+#### `MTU:` Maximum tranmission unit -> Tamanho máximo de pacote que a camada de enlace comnseuge transmitir. (Unidade máxima de transmissão)
+##### `MSS + Cabeçalho <= MTU`
+#### ACK: Próximo pacote que você espera receber.
+
+</br>
+
+### Tipos de transmissão 
+
+<ul>
+   <li> <b> Simplex: </b> Dados fluem apenas em um sentido. (Ex: Antena) </li>
+   <li> <b> Half-duplex </b> Dados fluem em ambos os sentidos, mas não ao mesmo tempo. (Ex: Rádio/Walkie-talkie) </li>
+   <li> <b> Full-duplex: </b> Dados fluem em ambos os sentidos e ao mesmo tempo. (Ex: Telnet) </li>
+</ul>
+
 </details>
 
 
