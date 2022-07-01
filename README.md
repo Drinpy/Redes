@@ -339,12 +339,17 @@ Nº de porta >=1024 são chamadas alfas e podem ser usadas.
 
 ### Exemplo conta com Janela e MSS:
 
-#### Janela tamanho 1pacote (1000 Bytes)
+#### Janela tamanho 1 pacote (1000 Bytes)
 
 MSS = 1000Bytes
 Incremento = MSS * (MSS/Janela) -> 1000 * (1000/1000)
-
 Incremento = 1000
+
+<br>
+
+#### Janela tamanho 2 pacote (2000 Bytes) -> Incremento(1000 bytes) + pacote anterior(1000 bytes)
+
+Incremento = 1000 * (1000/2000) = 500 (1° Incremento), 500 (2° Incremento)
 
 </details>
 
