@@ -152,6 +152,7 @@ Atraso de propagação está relacionado a distância (como a distância que uma
 
 
 </br>
+
 ##### `06/06/22` - Data de postagem!
 ### Portas 
    
